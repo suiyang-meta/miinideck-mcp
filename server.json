@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.miinideck/miinideck",
+  "description": "Publish AI-generated HTML to a private, unguessable link — create, update in place, and list pages, from inside your chat.",
+  "version": "1.0.0",
+  "homepage": "https://www.miinideck.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.miinideck.com/api/mcp"
+    }
+  ]
+}
